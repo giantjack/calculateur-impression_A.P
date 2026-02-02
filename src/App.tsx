@@ -60,7 +60,7 @@ const PRINT_QUALITIES = [
   {
     name: "Excellente",
     dpi: 300,
-    description: "Qualité pro, viewing distance proche",
+    description: "Qualité pro, observation de près",
     color: "green",
   },
   {
@@ -72,13 +72,13 @@ const PRINT_QUALITIES = [
   {
     name: "Bonne",
     dpi: 150,
-    description: "Posters, viewing distance moyenne",
+    description: "Posters, observation à distance moyenne",
     color: "blue",
   },
   {
     name: "Acceptable",
     dpi: 100,
-    description: "Grands formats, viewing distance loin",
+    description: "Grands formats, observation de loin",
     color: "orange",
   },
 ];
@@ -333,20 +333,6 @@ function App() {
             <strong>DPI</strong> (dots per inch) = nombre de points par pouce. Plus le DPI est élevé,
             plus l'image sera nette de près. Pour un tirage photo standard vu à bout de bras,
             240-300 DPI est idéal. Pour un poster vu de loin, 100-150 DPI suffit.
-          </Text>
-        </Box>
-
-        {/* Crédit */}
-        <Box pt={2}>
-          <Text fontSize="xs" color="#666" textAlign="center">
-            Outil créé pour{" "}
-            <a
-              href="https://apprendre.photo"
-              target="_blank"
-              style={{ color: "#FB9936" }}
-            >
-              Apprendre.Photo
-            </a>
           </Text>
         </Box>
       </VStack>
