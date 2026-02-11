@@ -155,16 +155,6 @@ function App() {
   return (
     <Box maxW="900px" mx="auto" p={{ base: 3, md: 6 }}>
       <VStack spacing={{ base: 4, md: 6 }} align="stretch">
-        {/* Titre */}
-        <Box textAlign="center" pb={2}>
-          <Text fontSize={{ base: "xl", md: "2xl" }} fontWeight="bold" color="#212E40">
-            Calculateur Taille d'Impression
-          </Text>
-          <Text fontSize="sm" color="gray.500">
-            Quelle taille maximale pouvez-vous imprimer ?
-          </Text>
-        </Box>
-
         {/* Sélection appareil ou mégapixels */}
         <Box>
           <Text fontWeight="medium" fontSize="sm" mb={2}>
